@@ -1,0 +1,3 @@
+Make sure that if you are testing a negative then you should explain it as a negative, errors should be taught out and errors should not be present and all tests should pass
+
+No matter what you did read the assignment when you get it 

@@ -1,0 +1,42 @@
+Going over more testing today and going over a work that we had gone over last semester (Piglatinify), 
+-For look at the design specification 
+-More thought and then actual application 
+WHAT OTHER THINGS THAT YOU WOULD LIKE TO TEST TO MAKE SURE THAT IT WORKS?
+-Put in some test to see if it will pass or fail when comming along such as
+  1) Words start with car
+  2) non word input 
+  3) Start with vowel
+  4) Caps
+  5) Empty string 
+Listed 5 things here that could be tested when putting in the input 
+If you really wantted to then you can make a test for each 
+you can't test every single possiblibties simply just becuase there are just so many 
+
+
+This is strict test written test development 
+Zman personally does round based 
+
+If youre a solo porgramer, but in the real world you have to aknowlege that your code might be around for a very long time
+writing things into tests will help rember what tests have been established to see what passes and what fails 
+
+Zman is showing off the example of "doctest.h" this is a files that likely contains mulitple tests to accomadate the many needed tests
+
+(On the whilte board )
+  n! = 1 * 2 * . . . n
+
+#define DOCTEST_CONFI_IMPLEMENT_WITH_MAIN
+#include <iostream>
+#include "doctest.h"
+
+
+TEST_CASE("Factorial Base Cases"){
+CHECK(fact)(0) == 1);
+CHECK(fact)(1) == 1);
+CHECK(fact)(3) == 6);
+}
+
+Running two diffrent excutables that are unrealted to each other 
+escutable porgam has nothing about the test there is nothing going on 
+
+Most people like having function and then they have a seperate file to run on their tests (with the exception of Python)
+There are very much diffrent type of testing even somthing that was called "Screenshot testing"

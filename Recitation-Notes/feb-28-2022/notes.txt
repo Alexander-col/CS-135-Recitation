@@ -1,0 +1,27 @@
+We are finishing over the technical version of testing 
+This is the exact same thing as for the model that we are going to do in class 
+
+Some poeple will want their tests to be in the same file as the actual function 
+In Python it is the doc string 
+Testing is injecting code into your testing there is a small chance that it could change somthing 
+
+Labs just arent that big to have a diffrent system
+
+Much more common is to not put the tests in 
+
+One convention is to call all of your 
+
+test(name).cpp
+
+3rd most common action is to put them all in a seperate folder
+
+A warning might be a varaible declared and not used could should up as a warnin 
+
+If you're on a long lived project things are going to be deprocated, so for a peariod of time you gotta clean stuff before new work gets phased in 
+In the real world we do logging alot, so you might log whenever a connection is made 
+All floating point numbers in computers are simply aproximations 
+
+Testing can only bring the testing of bugs, but not the absence of bugs 
+Genreally speaking you want to strive to have large coverage 
+
+One reason is that it making grading easier for Zman but we also learn about testing and is a good skill to be able to have 

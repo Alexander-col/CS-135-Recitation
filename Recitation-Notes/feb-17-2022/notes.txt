@@ -1,0 +1,32 @@
+Stratagies to wrtie programs that they work realitvly well 
+
+
+Zmansky stratagies that are very common:
+Gerneall yspeaking alot of time is usally not spent programing until you know what to program. EXPLORATIVE CODING can be very valuable. (little bits of code to explore how the code is working, tyring to understand what is going on)
+-Little tests and disscussion can lead to good understanding foundation to what needs to be accomplished.
+Book: The Mythical Man Month by Fred Brooks
+Thr first time that you wirte somthing decent size, "I don't care who you are. You don't know what you're talking about"
+Bruce is the smaertest guy in the room 
+If we knew what the probelm was then there wouldn't be a problem 
+
+Be aware of this apporach to writing your software such as TOP DOWN development, So it is to complete somthing but there is also BOTTOM UP which is a more modern concept 
+
+Programing to a speciiciation is to design enough to know what the code will look like which would be programing to the step
+
+Testing is usally important and not done nearly enough// when Zman programs he tests things all of the time // you always always always want to test!!!!!
+
+Sort of like have your own guidlines on things that you would like to pass. For this we have the Makefile and how it can be easier to find errors in code 
+
+Almost never are you working on your own even when you are it is very likey that someone else will join you such as a start up and then adding new people to the team
+
+Somtimes when your programs yourself you can ignore reoccuring things that 
+
+ZMAN BELIVES IN TESTING SO (TEST DRIVEN DEVELOPMENT) DOES NOT WORK FOR ZMAN. iN TDD IS ABOUT MAKING FUNCTIONS UNTIL IT WORKS?
+
+HAVE TESTS, AND WHEN HE SAYS THIS YOU WANT TO HAVE TESTS ON TESTS
+
+
+
+
+google has a library to handle testing but the thing is that you cannot install it on the hunter machience
+so intstead we will use an include file 

@@ -1,0 +1,42 @@
+Utils is dependet on adders and adders are dependent of dtils
+Things that are compiled together that would end up in a result 
+
+Even with a header fille -c is the one to give the .o file rather then compiling that thin completely
+
+Then it appears that you would compile the .o files together and would be dependent on each other 
+
+g++ *cpp compiles then everything that end in cpp but it is a deficeny disadvantage
+
+"cp utils.cpp util-backup.cpp" is what he entered in order to ... I didnt catch this one
+
+Make files are important so that things stay in sync 
+for example:
+///
+adders.o: adders.cpp adders.h
+        g++ -c adders.cpp
+utils.o: utils.cpp utils.h adders.h
+        g++ -c utils.cpp
+main.o; main.cpp utilsh adders.h
+        g++ -c main.cpp
+mainL main.o utils.o adders.o
+      g++ -o main main.o utils.o adders.o
+
+clean:
+      rm -f main.o adders.o utils.o
+help:
+      @echo "Targets;"
+      @echo " main"
+      @echo " clean"
+      @echo " help"
+//
+
+Compling can take time
+Make is powerfull becuase using can rebuild everything
+
+All he had to recompile is the 2 to 3 files from the rom then the compling was much faster with Zman example of 3mins which was fast enough to be reasonable 
+
+Make is primarlly from the C and the C++ tool world
+There are many many many tools for C++ but conceptually they are all the same things you wanna build and how to get it done which is exactly what make does
+Basic concepts are the same always combe back to make becuase it is just the simplest and it works 
+
+If your confrotable with make then youll be in a good place to make right decsions.

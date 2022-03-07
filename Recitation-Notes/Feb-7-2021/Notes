@@ -1,0 +1,24 @@
+Computer Number: C1001LAB2 202
+Last time we talked about seperate compilations which applies to the new lab in which we are compling multiple files together
+
+He is currently showing us the procedure that he uses when he is going through our work in order to grade it
+Basically just follow instructions when submitting working 
+Do not forget to implemnt the std::endl;
+
+We can now write programs with more than just a single file 
+In most cases we will be using the code from other people and so implement that into our own code 
+
+If we go into the web development world at least from the front end that is, There is alot of things that are involved into this code 
+
+Went over a bunc of commands in the terminal that I don't entirely understand g++ -o main main.cpp
+
+If he had main.cpp then it really went to main.o
+sepreate the .o and the fianlly likely when submitting it can change efficeny and ablity 
+
+There is somthiing involved in which the command line is neccissay and cannot use the space bar instead
+
+Today he had gone over using diffrent types of files and implementing them in a somthing called "Makefile" such 
+it is on github: https://github.com/hunter-classes/135/blob/master/code/make/simple/Makefile
+
+The power in this is that we are seprating conerns what if it is maing and 20 other files then so make only compiles the files that it needs to 
+
