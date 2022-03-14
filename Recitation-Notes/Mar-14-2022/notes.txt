@@ -1,0 +1,29 @@
+NOTES STARTED AT 8:40
+In a good amount of the time you are faced with a cesar cypher
+
+One of the first challengings are to deal with a cesar cypher in cyber security 
+An easy fix for the cesar cypher is printing out all of the 26 roations and so it would find the right one eventually
+
+There are many ways or clues to break apart a cesar cypher in order to figure out the original plaintext of an encrypted message 
+
+Zman is once againg bringing the example of when Google uses it ways to find the answer to an everchainging question for example:
+The "Who played Spider-Man question" Google searches through dates clues and information to find the name of the current play actor at the current time
+that could have many varrying answers if it didn't have the time relvance Spider-Man 
+
+
+
+Now Zman is going over computer types on the board he currently has 
+-cpu  
+-Battery 
+-Size 
+-Screen
+-Cost
+-Weight
+-Brand 
+The problem with price is that is not enough of a facotr
+He mad a graph example in the graph example he had put Cost as the X ande Battey as the Y 
+
+High school math distance formula can tell you which two laptops are the most simillar 
+This is what happens alot with computers 
+
+On thursday we are going to talk about how graphs are used every day in comptuers l
